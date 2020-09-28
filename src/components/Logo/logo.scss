@@ -1,0 +1,9 @@
+.header__logo {
+  margin-right: 35px;
+}
+
+@media (max-width: 590px) {
+  .header__logo {
+    margin-right: 0;
+  }
+}

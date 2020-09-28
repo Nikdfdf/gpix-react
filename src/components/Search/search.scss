@@ -1,0 +1,16 @@
+.header__search-btn {
+  background-image: url(../../assets/img/search.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 488px) {
+  .header__search {
+    display: none;
+  }
+}

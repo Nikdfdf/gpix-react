@@ -1,0 +1,29 @@
+.footer {
+  background-color: #fff;
+  padding: 40px 0;
+  &__container {
+    padding: 0 15px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  .header__menu-link {
+    opacity: 1;
+  }
+  .menu {
+    max-width: 850px;
+  }
+}
+
+@media (max-width: 769px) {
+  .footer {
+    padding: 20px 0;
+  }
+  .footer__wrapper {
+    display: block;
+    margin-bottom: 15px;
+  }
+}

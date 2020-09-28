@@ -1,0 +1,22 @@
+.footer__number-link {
+  color: #000;
+}
+
+.footer__number-call {
+  display: block;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.footer__number-text {
+  opacity: .5;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (max-width: 769px) {
+  .footer__number {
+    text-align: center;
+  }
+}

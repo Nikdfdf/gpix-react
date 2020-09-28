@@ -1,0 +1,19 @@
+.footer__info {
+  font-size: 14px;
+  opacity: .5;
+  display: flex;
+  align-items: center;
+  a {
+    text-decoration: underline;
+  }
+  &-date {
+    flex-basis: 355px;
+  }
+}
+
+@media (max-width: 769px) {
+  .footer__info {
+    display: block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,38 @@
+.header__location {
+  margin-bottom: 7px;
+}
+.header__location-text {
+  display: block;
+  opacity: .5;
+  font-size: 14px;
+  line-height: 36px;
+  transition: .3s;
+  cursor: pointer;
+  position: relative;
+  text-align: right;
+  &::after {
+    content: url(../../assets/img/geo.svg);
+    position: absolute;
+    left: 0;
+    line-height: 36px;
+    left: -10px;
+    top: 5px;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 769px) {
+  .header__location-text {
+    margin-right: 20px;
+  }
+  .header__location-text::after {
+    left: -25px;
+  }
+}
+@media (max-width: 590px) {
+  .header__location {
+    display: none;
+  }
+}
